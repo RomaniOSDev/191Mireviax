@@ -3,33 +3,120 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		308F422B2FC98D4F00CBC499 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 308F42102FC98D4F00CBC499 /* privacy_policy.md */; };
+		308F422C2FC98D4F00CBC499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308F42212FC98D4F00CBC499 /* Assets.xcassets */; };
+		308F422E2FC98D4F00CBC499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308F42252FC98D4F00CBC499 /* LaunchScreen.storyboard */; };
+		308F422F2FC98D4F00CBC499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308F42272FC98D4F00CBC499 /* Main.storyboard */; };
+		308F42302FC98D4F00CBC499 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41DF2FC98D4F00CBC499 /* Notification+Extensions.swift */; };
+		308F42312FC98D4F00CBC499 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E12FC98D4F00CBC499 /* Models.swift */; };
+		308F42322FC98D4F00CBC499 /* AchievementBannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E32FC98D4F00CBC499 /* AchievementBannerManager.swift */; };
+		308F42332FC98D4F00CBC499 /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E42FC98D4F00CBC499 /* FeedbackService.swift */; };
+		308F42342FC98D4F00CBC499 /* IngredientScaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E52FC98D4F00CBC499 /* IngredientScaler.swift */; };
+		308F42352FC98D4F00CBC499 /* StepDurationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E62FC98D4F00CBC499 /* StepDurationParser.swift */; };
+		308F42362FC98D4F00CBC499 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41E72FC98D4F00CBC499 /* UnitConverter.swift */; };
+		308F42372FC98D4F00CBC499 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41EA2FC98D4F00CBC499 /* AppStorage.swift */; };
+		308F42382FC98D4F00CBC499 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41EC2FC98D4F00CBC499 /* AppLinks.swift */; };
+		308F42392FC98D4F00CBC499 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41EE2FC98D4F00CBC499 /* AchievementsView.swift */; };
+		308F423A2FC98D4F00CBC499 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41F02FC98D4F00CBC499 /* HomeView.swift */; };
+		308F423B2FC98D4F00CBC499 /* KitchenHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41F22FC98D4F00CBC499 /* KitchenHubView.swift */; };
+		308F423C2FC98D4F00CBC499 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41F42FC98D4F00CBC499 /* MainTabView.swift */; };
+		308F423D2FC98D4F00CBC499 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41F62FC98D4F00CBC499 /* OnboardingView.swift */; };
+		308F423E2FC98D4F00CBC499 /* ActivityCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41F82FC98D4F00CBC499 /* ActivityCalendarView.swift */; };
+		308F423F2FC98D4F00CBC499 /* AddEditRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FA2FC98D4F00CBC499 /* AddEditRecipeView.swift */; };
+		308F42402FC98D4F00CBC499 /* RecipeCuratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FB2FC98D4F00CBC499 /* RecipeCuratorView.swift */; };
+		308F42412FC98D4F00CBC499 /* RecipeCuratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FC2FC98D4F00CBC499 /* RecipeCuratorViewModel.swift */; };
+		308F42422FC98D4F00CBC499 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FD2FC98D4F00CBC499 /* RecipeDetailView.swift */; };
+		308F42432FC98D4F00CBC499 /* RecipeFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FE2FC98D4F00CBC499 /* RecipeFilterSheet.swift */; };
+		308F42442FC98D4F00CBC499 /* WeekPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F41FF2FC98D4F00CBC499 /* WeekPlanView.swift */; };
+		308F42452FC98D4F00CBC499 /* DataExportImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42012FC98D4F00CBC499 /* DataExportImportView.swift */; };
+		308F42462FC98D4F00CBC499 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42022FC98D4F00CBC499 /* PrivacyPolicyView.swift */; };
+		308F42472FC98D4F00CBC499 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42032FC98D4F00CBC499 /* SettingsView.swift */; };
+		308F42482FC98D4F00CBC499 /* AddGroceryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42052FC98D4F00CBC499 /* AddGroceryItemView.swift */; };
+		308F42492FC98D4F00CBC499 /* ListTemplatesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42062FC98D4F00CBC499 /* ListTemplatesSheet.swift */; };
+		308F424A2FC98D4F00CBC499 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42072FC98D4F00CBC499 /* ShoppingListView.swift */; };
+		308F424B2FC98D4F00CBC499 /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42082FC98D4F00CBC499 /* ShoppingListViewModel.swift */; };
+		308F424C2FC98D4F00CBC499 /* AddTimerChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F420A2FC98D4F00CBC499 /* AddTimerChainView.swift */; };
+		308F424D2FC98D4F00CBC499 /* AddTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F420B2FC98D4F00CBC499 /* AddTimerView.swift */; };
+		308F424E2FC98D4F00CBC499 /* CookingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F420C2FC98D4F00CBC499 /* CookingTimerView.swift */; };
+		308F424F2FC98D4F00CBC499 /* CookingTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F420D2FC98D4F00CBC499 /* CookingTimerViewModel.swift */; };
+		308F42502FC98D4F00CBC499 /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42122FC98D4F00CBC499 /* AchievementBannerView.swift */; };
+		308F42512FC98D4F00CBC499 /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42132FC98D4F00CBC499 /* AppBackgroundView.swift */; };
+		308F42522FC98D4F00CBC499 /* AppScreenStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42142FC98D4F00CBC499 /* AppScreenStyle.swift */; };
+		308F42532FC98D4F00CBC499 /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42152FC98D4F00CBC499 /* AppVisualStyle.swift */; };
+		308F42542FC98D4F00CBC499 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42162FC98D4F00CBC499 /* ButtonStyles.swift */; };
+		308F42552FC98D4F00CBC499 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42172FC98D4F00CBC499 /* CustomCells.swift */; };
+		308F42562FC98D4F00CBC499 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42182FC98D4F00CBC499 /* DesignSystem.swift */; };
+		308F42572FC98D4F00CBC499 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42192FC98D4F00CBC499 /* EmptyStateView.swift */; };
+		308F42582FC98D4F00CBC499 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F421A2FC98D4F00CBC499 /* ShakeEffect.swift */; };
+		308F42592FC98D4F00CBC499 /* Illustrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F421C2FC98D4F00CBC499 /* Illustrations.swift */; };
+		308F425A2FC98D4F00CBC499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42202FC98D4F00CBC499 /* AppDelegate.swift */; };
+		308F425B2FC98D4F00CBC499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42222FC98D4F00CBC499 /* ContentView.swift */; };
+		308F425C2FC98D4F00CBC499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42282FC98D4F00CBC499 /* SceneDelegate.swift */; };
+		308F425D2FC98D4F00CBC499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42292FC98D4F00CBC499 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		16A02F2DBBA4177FB34C2FFA /* Pods-191Mireviax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-191Mireviax.release.xcconfig"; path = "Target Support Files/Pods-191Mireviax/Pods-191Mireviax.release.xcconfig"; sourceTree = "<group>"; };
 		308F39DB2FC9625600CBC499 /* 191Mireviax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 191Mireviax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308F41DF2FC98D4F00CBC499 /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
+		308F41E12FC98D4F00CBC499 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		308F41E32FC98D4F00CBC499 /* AchievementBannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerManager.swift; sourceTree = "<group>"; };
+		308F41E42FC98D4F00CBC499 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		308F41E52FC98D4F00CBC499 /* IngredientScaler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientScaler.swift; sourceTree = "<group>"; };
+		308F41E62FC98D4F00CBC499 /* StepDurationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDurationParser.swift; sourceTree = "<group>"; };
+		308F41E72FC98D4F00CBC499 /* UnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		308F41EA2FC98D4F00CBC499 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		308F41EC2FC98D4F00CBC499 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		308F41EE2FC98D4F00CBC499 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		308F41F02FC98D4F00CBC499 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		308F41F22FC98D4F00CBC499 /* KitchenHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenHubView.swift; sourceTree = "<group>"; };
+		308F41F42FC98D4F00CBC499 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		308F41F62FC98D4F00CBC499 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		308F41F82FC98D4F00CBC499 /* ActivityCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCalendarView.swift; sourceTree = "<group>"; };
+		308F41FA2FC98D4F00CBC499 /* AddEditRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditRecipeView.swift; sourceTree = "<group>"; };
+		308F41FB2FC98D4F00CBC499 /* RecipeCuratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCuratorView.swift; sourceTree = "<group>"; };
+		308F41FC2FC98D4F00CBC499 /* RecipeCuratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCuratorViewModel.swift; sourceTree = "<group>"; };
+		308F41FD2FC98D4F00CBC499 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		308F41FE2FC98D4F00CBC499 /* RecipeFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFilterSheet.swift; sourceTree = "<group>"; };
+		308F41FF2FC98D4F00CBC499 /* WeekPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlanView.swift; sourceTree = "<group>"; };
+		308F42012FC98D4F00CBC499 /* DataExportImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportImportView.swift; sourceTree = "<group>"; };
+		308F42022FC98D4F00CBC499 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		308F42032FC98D4F00CBC499 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		308F42052FC98D4F00CBC499 /* AddGroceryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryItemView.swift; sourceTree = "<group>"; };
+		308F42062FC98D4F00CBC499 /* ListTemplatesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTemplatesSheet.swift; sourceTree = "<group>"; };
+		308F42072FC98D4F00CBC499 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		308F42082FC98D4F00CBC499 /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		308F420A2FC98D4F00CBC499 /* AddTimerChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerChainView.swift; sourceTree = "<group>"; };
+		308F420B2FC98D4F00CBC499 /* AddTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerView.swift; sourceTree = "<group>"; };
+		308F420C2FC98D4F00CBC499 /* CookingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerView.swift; sourceTree = "<group>"; };
+		308F420D2FC98D4F00CBC499 /* CookingTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingTimerViewModel.swift; sourceTree = "<group>"; };
+		308F42102FC98D4F00CBC499 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		308F42122FC98D4F00CBC499 /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		308F42132FC98D4F00CBC499 /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		308F42142FC98D4F00CBC499 /* AppScreenStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenStyle.swift; sourceTree = "<group>"; };
+		308F42152FC98D4F00CBC499 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		308F42162FC98D4F00CBC499 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		308F42172FC98D4F00CBC499 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		308F42182FC98D4F00CBC499 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		308F42192FC98D4F00CBC499 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		308F421A2FC98D4F00CBC499 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		308F421C2FC98D4F00CBC499 /* Illustrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrations.swift; sourceTree = "<group>"; };
+		308F421F2FC98D4F00CBC499 /* 191Mireviax.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 191Mireviax.entitlements; sourceTree = "<group>"; };
+		308F42202FC98D4F00CBC499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308F42212FC98D4F00CBC499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308F42222FC98D4F00CBC499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		308F42232FC98D4F00CBC499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308F42242FC98D4F00CBC499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308F42262FC98D4F00CBC499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308F42282FC98D4F00CBC499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		308F42292FC98D4F00CBC499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71E9EEAA68AE45342D41BCA8 /* Pods-191Mireviax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-191Mireviax.debug.xcconfig"; path = "Target Support Files/Pods-191Mireviax/Pods-191Mireviax.debug.xcconfig"; sourceTree = "<group>"; };
+		92B8D8E4F0E9D778131A284E /* Pods_191Mireviax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_191Mireviax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		308F39ED2FC9625800CBC499 /* Exceptions for "191Mireviax" folder in "191Mireviax" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 308F39DA2FC9625600CBC499 /* 191Mireviax */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		308F39DD2FC9625600CBC499 /* 191Mireviax */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				308F39ED2FC9625800CBC499 /* Exceptions for "191Mireviax" folder in "191Mireviax" target */,
-			);
-			path = 191Mireviax;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		308F39D82FC9625600CBC499 /* Frameworks */ = {
@@ -42,11 +129,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23C3667ED29D2D2519003715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B8D8E4F0E9D778131A284E /* Pods_191Mireviax.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		308F39D22FC9625600CBC499 = {
 			isa = PBXGroup;
 			children = (
-				308F39DD2FC9625600CBC499 /* 191Mireviax */,
+				308F422A2FC98D4F00CBC499 /* 191Mireviax */,
 				308F39DC2FC9625600CBC499 /* Products */,
+				B8F0C5ECAEEB8333CC307357 /* Pods */,
+				23C3667ED29D2D2519003715 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +155,242 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		308F41E02FC98D4F00CBC499 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				308F41DF2FC98D4F00CBC499 /* Notification+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		308F41E22FC98D4F00CBC499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				308F41E12FC98D4F00CBC499 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		308F41E82FC98D4F00CBC499 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				308F41E32FC98D4F00CBC499 /* AchievementBannerManager.swift */,
+				308F41E42FC98D4F00CBC499 /* FeedbackService.swift */,
+				308F41E52FC98D4F00CBC499 /* IngredientScaler.swift */,
+				308F41E62FC98D4F00CBC499 /* StepDurationParser.swift */,
+				308F41E72FC98D4F00CBC499 /* UnitConverter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		308F41E92FC98D4F00CBC499 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		308F41EB2FC98D4F00CBC499 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				308F41EA2FC98D4F00CBC499 /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		308F41ED2FC98D4F00CBC499 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				308F41E02FC98D4F00CBC499 /* Extensions */,
+				308F41E22FC98D4F00CBC499 /* Models */,
+				308F41E82FC98D4F00CBC499 /* Services */,
+				308F41E92FC98D4F00CBC499 /* Shared */,
+				308F41EB2FC98D4F00CBC499 /* Storage */,
+				308F41EC2FC98D4F00CBC499 /* AppLinks.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		308F41EF2FC98D4F00CBC499 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				308F41EE2FC98D4F00CBC499 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		308F41F12FC98D4F00CBC499 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				308F41F02FC98D4F00CBC499 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		308F41F32FC98D4F00CBC499 /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				308F41F22FC98D4F00CBC499 /* KitchenHubView.swift */,
+			);
+			path = Kitchen;
+			sourceTree = "<group>";
+		};
+		308F41F52FC98D4F00CBC499 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				308F41F42FC98D4F00CBC499 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		308F41F72FC98D4F00CBC499 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				308F41F62FC98D4F00CBC499 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		308F41F92FC98D4F00CBC499 /* Planning */ = {
+			isa = PBXGroup;
+			children = (
+				308F41F82FC98D4F00CBC499 /* ActivityCalendarView.swift */,
+			);
+			path = Planning;
+			sourceTree = "<group>";
+		};
+		308F42002FC98D4F00CBC499 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				308F41FA2FC98D4F00CBC499 /* AddEditRecipeView.swift */,
+				308F41FB2FC98D4F00CBC499 /* RecipeCuratorView.swift */,
+				308F41FC2FC98D4F00CBC499 /* RecipeCuratorViewModel.swift */,
+				308F41FD2FC98D4F00CBC499 /* RecipeDetailView.swift */,
+				308F41FE2FC98D4F00CBC499 /* RecipeFilterSheet.swift */,
+				308F41FF2FC98D4F00CBC499 /* WeekPlanView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		308F42042FC98D4F00CBC499 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				308F42012FC98D4F00CBC499 /* DataExportImportView.swift */,
+				308F42022FC98D4F00CBC499 /* PrivacyPolicyView.swift */,
+				308F42032FC98D4F00CBC499 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		308F42092FC98D4F00CBC499 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				308F42052FC98D4F00CBC499 /* AddGroceryItemView.swift */,
+				308F42062FC98D4F00CBC499 /* ListTemplatesSheet.swift */,
+				308F42072FC98D4F00CBC499 /* ShoppingListView.swift */,
+				308F42082FC98D4F00CBC499 /* ShoppingListViewModel.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		308F420E2FC98D4F00CBC499 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				308F420A2FC98D4F00CBC499 /* AddTimerChainView.swift */,
+				308F420B2FC98D4F00CBC499 /* AddTimerView.swift */,
+				308F420C2FC98D4F00CBC499 /* CookingTimerView.swift */,
+				308F420D2FC98D4F00CBC499 /* CookingTimerViewModel.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		308F420F2FC98D4F00CBC499 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				308F41EF2FC98D4F00CBC499 /* Achievements */,
+				308F41F12FC98D4F00CBC499 /* Home */,
+				308F41F32FC98D4F00CBC499 /* Kitchen */,
+				308F41F52FC98D4F00CBC499 /* Main */,
+				308F41F72FC98D4F00CBC499 /* Onboarding */,
+				308F41F92FC98D4F00CBC499 /* Planning */,
+				308F42002FC98D4F00CBC499 /* Recipes */,
+				308F42042FC98D4F00CBC499 /* Settings */,
+				308F42092FC98D4F00CBC499 /* Shopping */,
+				308F420E2FC98D4F00CBC499 /* Timer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		308F42112FC98D4F00CBC499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308F42102FC98D4F00CBC499 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		308F421B2FC98D4F00CBC499 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				308F42122FC98D4F00CBC499 /* AchievementBannerView.swift */,
+				308F42132FC98D4F00CBC499 /* AppBackgroundView.swift */,
+				308F42142FC98D4F00CBC499 /* AppScreenStyle.swift */,
+				308F42152FC98D4F00CBC499 /* AppVisualStyle.swift */,
+				308F42162FC98D4F00CBC499 /* ButtonStyles.swift */,
+				308F42172FC98D4F00CBC499 /* CustomCells.swift */,
+				308F42182FC98D4F00CBC499 /* DesignSystem.swift */,
+				308F42192FC98D4F00CBC499 /* EmptyStateView.swift */,
+				308F421A2FC98D4F00CBC499 /* ShakeEffect.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		308F421D2FC98D4F00CBC499 /* Illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				308F421C2FC98D4F00CBC499 /* Illustrations.swift */,
+			);
+			path = Illustrations;
+			sourceTree = "<group>";
+		};
+		308F421E2FC98D4F00CBC499 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				308F421B2FC98D4F00CBC499 /* Components */,
+				308F421D2FC98D4F00CBC499 /* Illustrations */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		308F422A2FC98D4F00CBC499 /* 191Mireviax */ = {
+			isa = PBXGroup;
+			children = (
+				308F41ED2FC98D4F00CBC499 /* Core */,
+				308F420F2FC98D4F00CBC499 /* Features */,
+				308F42112FC98D4F00CBC499 /* Resources */,
+				308F421E2FC98D4F00CBC499 /* Shared */,
+				308F421F2FC98D4F00CBC499 /* 191Mireviax.entitlements */,
+				308F42202FC98D4F00CBC499 /* AppDelegate.swift */,
+				308F42212FC98D4F00CBC499 /* Assets.xcassets */,
+				308F42222FC98D4F00CBC499 /* ContentView.swift */,
+				308F42232FC98D4F00CBC499 /* Info.plist */,
+				308F42252FC98D4F00CBC499 /* LaunchScreen.storyboard */,
+				308F42272FC98D4F00CBC499 /* Main.storyboard */,
+				308F42282FC98D4F00CBC499 /* SceneDelegate.swift */,
+				308F42292FC98D4F00CBC499 /* ViewController.swift */,
+			);
+			path = 191Mireviax;
+			sourceTree = "<group>";
+		};
+		B8F0C5ECAEEB8333CC307357 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E9EEAA68AE45342D41BCA8 /* Pods-191Mireviax.debug.xcconfig */,
+				16A02F2DBBA4177FB34C2FFA /* Pods-191Mireviax.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +398,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 308F39EE2FC9625800CBC499 /* Build configuration list for PBXNativeTarget "191Mireviax" */;
 			buildPhases = (
+				4A90C1B9CEB1447789C6D871 /* [CP] Check Pods Manifest.lock */,
 				308F39D72FC9625600CBC499 /* Sources */,
 				308F39D82FC9625600CBC499 /* Frameworks */,
 				308F39D92FC9625600CBC499 /* Resources */,
@@ -73,12 +407,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				308F39DD2FC9625600CBC499 /* 191Mireviax */,
-			);
 			name = 191Mireviax;
-			packageProductDependencies = (
-			);
 			productName = 191Mireviax;
 			productReference = 308F39DB2FC9625600CBC499 /* 191Mireviax.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +428,7 @@
 				};
 			};
 			buildConfigurationList = 308F39D62FC9625600CBC499 /* Build configuration list for PBXProject "191Mireviax" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +436,6 @@
 				Base,
 			);
 			mainGroup = 308F39D22FC9625600CBC499;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 308F39DC2FC9625600CBC499 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +450,197 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308F422B2FC98D4F00CBC499 /* privacy_policy.md in Resources */,
+				308F422C2FC98D4F00CBC499 /* Assets.xcassets in Resources */,
+				308F422E2FC98D4F00CBC499 /* LaunchScreen.storyboard in Resources */,
+				308F422F2FC98D4F00CBC499 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A90C1B9CEB1447789C6D871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-191Mireviax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		308F39D72FC9625600CBC499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308F42302FC98D4F00CBC499 /* Notification+Extensions.swift in Sources */,
+				308F42312FC98D4F00CBC499 /* Models.swift in Sources */,
+				308F42322FC98D4F00CBC499 /* AchievementBannerManager.swift in Sources */,
+				308F42332FC98D4F00CBC499 /* FeedbackService.swift in Sources */,
+				308F42342FC98D4F00CBC499 /* IngredientScaler.swift in Sources */,
+				308F42352FC98D4F00CBC499 /* StepDurationParser.swift in Sources */,
+				308F42362FC98D4F00CBC499 /* UnitConverter.swift in Sources */,
+				308F42372FC98D4F00CBC499 /* AppStorage.swift in Sources */,
+				308F42382FC98D4F00CBC499 /* AppLinks.swift in Sources */,
+				308F42392FC98D4F00CBC499 /* AchievementsView.swift in Sources */,
+				308F423A2FC98D4F00CBC499 /* HomeView.swift in Sources */,
+				308F423B2FC98D4F00CBC499 /* KitchenHubView.swift in Sources */,
+				308F423C2FC98D4F00CBC499 /* MainTabView.swift in Sources */,
+				308F423D2FC98D4F00CBC499 /* OnboardingView.swift in Sources */,
+				308F423E2FC98D4F00CBC499 /* ActivityCalendarView.swift in Sources */,
+				308F423F2FC98D4F00CBC499 /* AddEditRecipeView.swift in Sources */,
+				308F42402FC98D4F00CBC499 /* RecipeCuratorView.swift in Sources */,
+				308F42412FC98D4F00CBC499 /* RecipeCuratorViewModel.swift in Sources */,
+				308F42422FC98D4F00CBC499 /* RecipeDetailView.swift in Sources */,
+				308F42432FC98D4F00CBC499 /* RecipeFilterSheet.swift in Sources */,
+				308F42442FC98D4F00CBC499 /* WeekPlanView.swift in Sources */,
+				308F42452FC98D4F00CBC499 /* DataExportImportView.swift in Sources */,
+				308F42462FC98D4F00CBC499 /* PrivacyPolicyView.swift in Sources */,
+				308F42472FC98D4F00CBC499 /* SettingsView.swift in Sources */,
+				308F42482FC98D4F00CBC499 /* AddGroceryItemView.swift in Sources */,
+				308F42492FC98D4F00CBC499 /* ListTemplatesSheet.swift in Sources */,
+				308F424A2FC98D4F00CBC499 /* ShoppingListView.swift in Sources */,
+				308F424B2FC98D4F00CBC499 /* ShoppingListViewModel.swift in Sources */,
+				308F424C2FC98D4F00CBC499 /* AddTimerChainView.swift in Sources */,
+				308F424D2FC98D4F00CBC499 /* AddTimerView.swift in Sources */,
+				308F424E2FC98D4F00CBC499 /* CookingTimerView.swift in Sources */,
+				308F424F2FC98D4F00CBC499 /* CookingTimerViewModel.swift in Sources */,
+				308F42502FC98D4F00CBC499 /* AchievementBannerView.swift in Sources */,
+				308F42512FC98D4F00CBC499 /* AppBackgroundView.swift in Sources */,
+				308F42522FC98D4F00CBC499 /* AppScreenStyle.swift in Sources */,
+				308F42532FC98D4F00CBC499 /* AppVisualStyle.swift in Sources */,
+				308F42542FC98D4F00CBC499 /* ButtonStyles.swift in Sources */,
+				308F42552FC98D4F00CBC499 /* CustomCells.swift in Sources */,
+				308F42562FC98D4F00CBC499 /* DesignSystem.swift in Sources */,
+				308F42572FC98D4F00CBC499 /* EmptyStateView.swift in Sources */,
+				308F42582FC98D4F00CBC499 /* ShakeEffect.swift in Sources */,
+				308F42592FC98D4F00CBC499 /* Illustrations.swift in Sources */,
+				308F425A2FC98D4F00CBC499 /* AppDelegate.swift in Sources */,
+				308F425B2FC98D4F00CBC499 /* ContentView.swift in Sources */,
+				308F425C2FC98D4F00CBC499 /* SceneDelegate.swift in Sources */,
+				308F425D2FC98D4F00CBC499 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		308F42252FC98D4F00CBC499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308F42242FC98D4F00CBC499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		308F42272FC98D4F00CBC499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308F42262FC98D4F00CBC499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		308F39EF2FC9625800CBC499 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E9EEAA68AE45342D41BCA8 /* Pods-191Mireviax.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 191Mireviax/191Mireviax.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 191Mireviax/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mireviax;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-91Mireviax";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		308F39F02FC9625800CBC499 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A02F2DBBA4177FB34C2FFA /* Pods-191Mireviax.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 191Mireviax/191Mireviax.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 191Mireviax/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mireviax;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-91Mireviax";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
