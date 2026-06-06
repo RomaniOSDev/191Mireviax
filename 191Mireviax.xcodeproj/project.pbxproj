@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301FCE982FD493550019443E /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 301FCE912FD493550019443E /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		301FCEA02FD493D20019443E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 301FCE9F2FD493D20019443E /* FirebaseMessaging */; };
+		301FCEA32FD4942B0019443E /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 301FCEA22FD4942B0019443E /* AppsFlyerLib-Static */; };
+		301FCEB22FD4946C0019443E /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEB02FD4946C0019443E /* WebviewVC.swift */; };
+		301FCEB32FD4946C0019443E /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAD2FD4946C0019443E /* NotificationPermissionViewController.swift */; };
+		301FCEB42FD4946C0019443E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA82FD4946C0019443E /* LoadingViewController.swift */; };
+		301FCEB52FD4946C0019443E /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA42FD4946C0019443E /* AppsFlyerManager.swift */; };
+		301FCEB62FD4946C0019443E /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAE2FD4946C0019443E /* PushNotificationURLRouter.swift */; };
+		301FCEB72FD4946C0019443E /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA62FD4946C0019443E /* LoadingManager.swift */; };
+		301FCEB82FD4946C0019443E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA72FD4946C0019443E /* LoadingView.swift */; };
+		301FCEB92FD4946C0019443E /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA92FD4946C0019443E /* NetworkAvailability.swift */; };
+		301FCEBA2FD4946C0019443E /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAB2FD4946C0019443E /* NotificationPermissionManager.swift */; };
+		301FCEBB2FD4946C0019443E /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAC2FD4946C0019443E /* NotificationPermissionView.swift */; };
+		301FCEBC2FD4946C0019443E /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAA2FD4946C0019443E /* NoInternetView.swift */; };
+		301FCEBD2FD4946C0019443E /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEAF2FD4946C0019443E /* UserAgentBuilder.swift */; };
+		301FCEBE2FD4946C0019443E /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEA52FD4946C0019443E /* ConfigManager.swift */; };
+		301FCEC02FD4950E0019443E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 301FCEBF2FD4950E0019443E /* FirebaseMessaging */; };
+		301FCEC42FD495340019443E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FCEC22FD495340019443E /* NotificationService.swift */; };
+		301FCEC72FD496130019443E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 301FCEC62FD496130019443E /* GoogleService-Info.plist */; };
 		308F422B2FC98D4F00CBC499 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 308F42102FC98D4F00CBC499 /* privacy_policy.md */; };
 		308F422C2FC98D4F00CBC499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308F42212FC98D4F00CBC499 /* Assets.xcassets */; };
 		308F422E2FC98D4F00CBC499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308F42252FC98D4F00CBC499 /* LaunchScreen.storyboard */; };
@@ -59,8 +78,49 @@
 		308F425D2FC98D4F00CBC499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308F42292FC98D4F00CBC499 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		301FCE962FD493550019443E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308F39D32FC9625600CBC499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301FCE902FD493550019443E;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		301FCE9D2FD493550019443E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				301FCE982FD493550019443E /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		16A02F2DBBA4177FB34C2FFA /* Pods-191Mireviax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-191Mireviax.release.xcconfig"; path = "Target Support Files/Pods-191Mireviax/Pods-191Mireviax.release.xcconfig"; sourceTree = "<group>"; };
+		301FCE912FD493550019443E /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		301FCEA42FD4946C0019443E /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		301FCEA52FD4946C0019443E /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		301FCEA62FD4946C0019443E /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		301FCEA72FD4946C0019443E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		301FCEA82FD4946C0019443E /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		301FCEA92FD4946C0019443E /* NetworkAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
+		301FCEAA2FD4946C0019443E /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		301FCEAB2FD4946C0019443E /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
+		301FCEAC2FD4946C0019443E /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		301FCEAD2FD4946C0019443E /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
+		301FCEAE2FD4946C0019443E /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
+		301FCEAF2FD4946C0019443E /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		301FCEB02FD4946C0019443E /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		301FCEC12FD495340019443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301FCEC22FD495340019443E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		301FCEC62FD496130019443E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		308F39DB2FC9625600CBC499 /* 191Mireviax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 191Mireviax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308F41DF2FC98D4F00CBC499 /* Notification+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
 		308F41E12FC98D4F00CBC499 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -119,10 +179,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		301FCE8E2FD493550019443E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301FCEC02FD4950E0019443E /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		308F39D82FC9625600CBC499 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FCEA02FD493D20019443E /* FirebaseMessaging in Frameworks */,
+				301FCEA32FD4942B0019443E /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,10 +207,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		301FCEB12FD4946C0019443E /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				301FCEA42FD4946C0019443E /* AppsFlyerManager.swift */,
+				301FCEA52FD4946C0019443E /* ConfigManager.swift */,
+				301FCEA62FD4946C0019443E /* LoadingManager.swift */,
+				301FCEA72FD4946C0019443E /* LoadingView.swift */,
+				301FCEA82FD4946C0019443E /* LoadingViewController.swift */,
+				301FCEA92FD4946C0019443E /* NetworkAvailability.swift */,
+				301FCEAA2FD4946C0019443E /* NoInternetView.swift */,
+				301FCEAB2FD4946C0019443E /* NotificationPermissionManager.swift */,
+				301FCEAC2FD4946C0019443E /* NotificationPermissionView.swift */,
+				301FCEAD2FD4946C0019443E /* NotificationPermissionViewController.swift */,
+				301FCEAE2FD4946C0019443E /* PushNotificationURLRouter.swift */,
+				301FCEAF2FD4946C0019443E /* UserAgentBuilder.swift */,
+				301FCEB02FD4946C0019443E /* WebviewVC.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		301FCEC32FD495340019443E /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				301FCEC12FD495340019443E /* Info.plist */,
+				301FCEC22FD495340019443E /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		308F39D22FC9625600CBC499 = {
 			isa = PBXGroup;
 			children = (
 				308F422A2FC98D4F00CBC499 /* 191Mireviax */,
+				301FCEC32FD495340019443E /* NotificationServiceExtension */,
 				308F39DC2FC9625600CBC499 /* Products */,
 				B8F0C5ECAEEB8333CC307357 /* Pods */,
 				23C3667ED29D2D2519003715 /* Frameworks */,
@@ -151,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				308F39DB2FC9625600CBC499 /* 191Mireviax.app */,
+				301FCE912FD493550019443E /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -378,6 +479,8 @@
 				308F42272FC98D4F00CBC499 /* Main.storyboard */,
 				308F42282FC98D4F00CBC499 /* SceneDelegate.swift */,
 				308F42292FC98D4F00CBC499 /* ViewController.swift */,
+				301FCEB12FD4946C0019443E /* Loading */,
+				301FCEC62FD496130019443E /* GoogleService-Info.plist */,
 			);
 			path = 191Mireviax;
 			sourceTree = "<group>";
@@ -394,6 +497,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		301FCE902FD493550019443E /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301FCE9A2FD493550019443E /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				301FCE8D2FD493550019443E /* Sources */,
+				301FCE8E2FD493550019443E /* Frameworks */,
+				301FCE8F2FD493550019443E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				301FCEBF2FD4950E0019443E /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = 301FCE912FD493550019443E /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		308F39DA2FC9625600CBC499 /* 191Mireviax */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 308F39EE2FC9625800CBC499 /* Build configuration list for PBXNativeTarget "191Mireviax" */;
@@ -402,10 +525,12 @@
 				308F39D72FC9625600CBC499 /* Sources */,
 				308F39D82FC9625600CBC499 /* Frameworks */,
 				308F39D92FC9625600CBC499 /* Resources */,
+				301FCE9D2FD493550019443E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				301FCE972FD493550019443E /* PBXTargetDependency */,
 			);
 			name = 191Mireviax;
 			productName = 191Mireviax;
@@ -419,9 +544,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2640;
+				LastSwiftUpdateCheck = 2650;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
+					301FCE902FD493550019443E = {
+						CreatedOnToolsVersion = 26.5;
+					};
 					308F39DA2FC9625600CBC499 = {
 						CreatedOnToolsVersion = 26.4.1;
 					};
@@ -436,22 +564,35 @@
 				Base,
 			);
 			mainGroup = 308F39D22FC9625600CBC499;
+			packageReferences = (
+				301FCE9E2FD493D20019443E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				301FCEA12FD4942B0019443E /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 308F39DC2FC9625600CBC499 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				308F39DA2FC9625600CBC499 /* 191Mireviax */,
+				301FCE902FD493550019443E /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		301FCE8F2FD493550019443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		308F39D92FC9625600CBC499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				308F422B2FC98D4F00CBC499 /* privacy_policy.md in Resources */,
 				308F422C2FC98D4F00CBC499 /* Assets.xcassets in Resources */,
+				301FCEC72FD496130019443E /* GoogleService-Info.plist in Resources */,
 				308F422E2FC98D4F00CBC499 /* LaunchScreen.storyboard in Resources */,
 				308F422F2FC98D4F00CBC499 /* Main.storyboard in Resources */,
 			);
@@ -485,6 +626,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		301FCE8D2FD493550019443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301FCEC42FD495340019443E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		308F39D72FC9625600CBC499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +654,19 @@
 				308F423D2FC98D4F00CBC499 /* OnboardingView.swift in Sources */,
 				308F423E2FC98D4F00CBC499 /* ActivityCalendarView.swift in Sources */,
 				308F423F2FC98D4F00CBC499 /* AddEditRecipeView.swift in Sources */,
+				301FCEB22FD4946C0019443E /* WebviewVC.swift in Sources */,
+				301FCEB32FD4946C0019443E /* NotificationPermissionViewController.swift in Sources */,
+				301FCEB42FD4946C0019443E /* LoadingViewController.swift in Sources */,
+				301FCEB52FD4946C0019443E /* AppsFlyerManager.swift in Sources */,
+				301FCEB62FD4946C0019443E /* PushNotificationURLRouter.swift in Sources */,
+				301FCEB72FD4946C0019443E /* LoadingManager.swift in Sources */,
+				301FCEB82FD4946C0019443E /* LoadingView.swift in Sources */,
+				301FCEB92FD4946C0019443E /* NetworkAvailability.swift in Sources */,
+				301FCEBA2FD4946C0019443E /* NotificationPermissionManager.swift in Sources */,
+				301FCEBB2FD4946C0019443E /* NotificationPermissionView.swift in Sources */,
+				301FCEBC2FD4946C0019443E /* NoInternetView.swift in Sources */,
+				301FCEBD2FD4946C0019443E /* UserAgentBuilder.swift in Sources */,
+				301FCEBE2FD4946C0019443E /* ConfigManager.swift in Sources */,
 				308F42402FC98D4F00CBC499 /* RecipeCuratorView.swift in Sources */,
 				308F42412FC98D4F00CBC499 /* RecipeCuratorViewModel.swift in Sources */,
 				308F42422FC98D4F00CBC499 /* RecipeDetailView.swift in Sources */,
@@ -540,6 +702,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		301FCE972FD493550019443E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301FCE902FD493550019443E /* NotificationServiceExtension */;
+			targetProxy = 301FCE962FD493550019443E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		308F42252FC98D4F00CBC499 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -560,6 +730,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		301FCE9B2FD493550019443E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		301FCE9C2FD493550019443E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		308F39EF2FC9625800CBC499 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71E9EEAA68AE45342D41BCA8 /* Pods-191Mireviax.debug.xcconfig */;
@@ -585,7 +819,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -627,7 +861,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emi.m1r3v185;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -766,6 +1000,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		301FCE9A2FD493550019443E /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301FCE9B2FD493550019443E /* Debug */,
+				301FCE9C2FD493550019443E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		308F39D62FC9625600CBC499 /* Build configuration list for PBXProject "191Mireviax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -785,6 +1028,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		301FCE9E2FD493D20019443E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+		301FCEA12FD4942B0019443E /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		301FCE9F2FD493D20019443E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 301FCE9E2FD493D20019443E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		301FCEA22FD4942B0019443E /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 301FCEA12FD4942B0019443E /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		301FCEBF2FD4950E0019443E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 301FCE9E2FD493D20019443E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 308F39D32FC9625600CBC499 /* Project object */;
 }
