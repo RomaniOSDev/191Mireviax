@@ -35,10 +35,10 @@ final class ConfigManager {
     static let shared = ConfigManager()
 
     /// URL эндпоинта конфига.
-    var configEndpointURL: URL? = URL(string: "https://trulbargrovarstrinel.com/config.php")
+    var configEndpointURL: URL? = URL(string: "https://mireviax.com/config.php")
 
     /// Store ID приложения (iOS — с префиксом "id"). 
-    var storeId: String = "id6759949645"
+    var storeId: String = "id6772331359"
 
     private init() {}
 
